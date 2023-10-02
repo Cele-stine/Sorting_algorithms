@@ -40,4 +40,5 @@ void swap_int(int *a, int *b);
 void insertion_sort_list(listint_t **list);
 void swap_selection(int *i, int *j);
 void selection_sort(int *array, size_t size);
+void insert_swap(listint_t **head, listint_t **n1, listint_t *n2);
 #endif
